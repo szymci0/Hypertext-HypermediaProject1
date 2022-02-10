@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wydarzenie link="https://www.ignant.com/category/photography/">
+  <premiera>
+    <aparat marka="lumix">
+       <model nazwa="S1">
+        <data_pr>04.2019</data_pr>
+        <data_pr_PL>06.2019</data_pr_PL>
+      </model>
+      <model nazwa="S1R">
+        <data_pr>05.2019</data_pr>
+        <data_pr_PL>07.2019</data_pr_PL>
+      </model>
+    </aparat>
+    <aparat marka="sony">
+      <model nazwa="A7S III">
+        <data_pr>04.2019</data_pr>
+        <data_pr_PL>06.2019</data_pr_PL>
+      </model>
+      <model nazwa="A9 II">
+        <data_pr>03.2019</data_pr>
+        <data_pr_PL>03.2019</data_pr_PL>
+      </model>
+      <model nazwa="A6700">
+        <data_pr>09.2019</data_pr>
+        <data_pr_PL>09.2019</data_pr_PL>
+      </model>
+    </aparat>
+    <aparat marka="canon">
+      <model nazwa="EOS R">
+        <data_pr>05.2019</data_pr>
+        <data_pr_PL>05.2019</data_pr_PL>
+      </model>
+    </aparat>
+  </premiera>
+  <wystawa>
+    <lokalizacja miasto="Gdansk">
+      <galeria miejsce="galeryja">
+        <autor>janskdj akjsndas</autor>
+        <tytul nzw="dasdzxc">
+          <technika>malowanie stopa</technika>
+          <cena>13</cena>
+        </tytul>
+      </galeria>
+      <galeria miejsce="jajco">
+        <autor>asdnjasnd</autor>
+        <tytul nzw="klkm">
+          <technika>foto</technika>
+          <cena>25</cena>
+        </tytul>
+      </galeria>
+    </lokalizacja>
+  </wystawa>
+
+
+</wydarzenie>

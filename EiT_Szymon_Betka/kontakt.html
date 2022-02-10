@@ -1,0 +1,83 @@
+﻿<!DOCTYPE HTML>
+<html lang="pl-PL">
+<head>
+    <title>Seriale Mixa</title>
+    <meta name="description" content="Projekt HiH nr.1" />
+    <meta name="keywords" content="HTML,PROJEKT,DOBRA ZABAWA">
+    <meta charset="UTF-8" />
+    <meta name="author" content="Szymon Betka">
+    <link rel="Stylesheet" href="Style.css" />
+</head>
+<body>
+
+	
+		<div id="naglowek">
+			<span class="intro">Foteczki Szymka</span>
+
+
+		</div>
+		<div id="strona">
+            <div id="lewa">
+                <ol>
+                    <li><span class="menu"><a href="intro.html"> Wstęp</a></span></li>
+                    <li><span class="menu"><a href="inspo.html">moje inspo</a></span></li>
+                    <li>
+                        <span class="menu"><a href="menu.html">Historia</a></span>
+                        <ul>
+                            <li><span class="menu2"><a href="foto.html">Fotografia</a></span></li>
+                            <li><span class="menu2"><a href="podzial.html">Podział technik</a></span></li>
+                            <li><span class="menu2"><a href="historia.html">Historia</a></span></li>
+                        </ul>
+                    </li>
+                    <li><span class="menu"><a href="galeria.html">Galeria</a></span></li>
+                    <li><span class="menu"><a href="kontakt.html">Kontakt</a></span></li>
+                </ol>
+
+
+            </div>
+			<div id="prawa">
+				<p class="nag">Formularz</p>
+				<form action="mailto:szymonbetk@mgial.com" enctype="text/plain" method="post">
+					<label>Imię: <input type="text" name="imię"> </label><br/>
+					<label>Nazwisko: <input type="text" name="nazwisko"> </label><br/>
+					<p>Płeć:</p>
+					<input type="radio" name="płeć" value="mężczyzna" checked="checked">Mężczyzna
+					<input type="radio" name="płeć" value="kobieta">Kobieta <br/>
+					<p>Ile masz lat?</p> 
+					<input type="radio" name="wiek" value=">19" checked="checked"> Mniej niż 19 <br/>
+					<input type="radio" name="wiek" value="19-24"> 19 - 24 <br/>
+					<input type="radio" name="wiek" value="<24"> Więcej niż 24 <br/>
+					<p> Temat: </p>
+					<input type="checkbox" name="temat" value="skarga"> Skarga <br/>
+					<input type="checkbox" name="temat" value="wniosek"> Wniosek <br/>
+					<input type="checkbox" name="temat" value="skarga"> Pochwała<br/>
+					<input type="checkbox" name="temat" value="inny"> Inny(podaj jaki):
+					<input  name="temat"> <br/>
+					<p>Jak oceniasz strone?</p>
+					<select name="ocena">
+						<option selected="selected">Świetna</option>
+						<option>W deche</option>
+						<option>Czadowa</option>
+						<option>Super</option>
+						<option>Ekstra</option>
+						<option>Sztos</option>
+					</select>
+					<br/><br/>
+					<p>Komentarz </p>
+					<textarea name="komentarz" cols="45" rows="12"> Tutaj wpisz komentarz </textarea>
+					<br/><br/>
+					<input type="submit" value="Wyślij" ><input type="reset" value="Wyczyść dane" >
+				</form>
+			                                                                                                                                                                    
+
+			</div>
+		<div id="stopka">
+			<span id="animacja"> Szymon Betka 2019®</span>
+		</div>
+			</div>
+
+		
+
+	
+</body>
+</html>
